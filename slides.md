@@ -69,6 +69,9 @@
 ![regform-thorough](images/registration-form-thorough.png)
 
 !SLIDE center
+![regform-thorough](images/baconized.png)
+
+!SLIDE center
 ![regform-bacon](images/registration-form-bacon.png)
 
 !SLIDE center
