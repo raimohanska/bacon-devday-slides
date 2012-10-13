@@ -2,6 +2,9 @@
 # frp w/ js #
 * juha paananen @raimohanska
 
+!SLIDE center
+![tweet](images/tweet.png)
+
 !SLIDE code
 
     managers = new ArrayList<Employee>()
