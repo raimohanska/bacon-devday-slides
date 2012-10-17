@@ -1,5 +1,5 @@
 !SLIDE bullets
-# frp w/ js #
+# FRP / bacon.js #
 * juha paananen @raimohanska
 
 !SLIDE code
