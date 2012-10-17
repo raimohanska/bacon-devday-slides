@@ -2,15 +2,11 @@
 # frp w/ js #
 * juha paananen @raimohanska
 
-!SLIDE center
-![tweet](images/tweet.png)
-
 !SLIDE code
 
-    managers = new ArrayList<Employee>()
-    for (int i = 0; i < employees.size(); i++) {
-      Employee e = employees.get(i);
-      if (e.title.equals("manager")) {
+    List<Employee> managers = new ArrayList()
+    for (Employee employee : employees) {
+      if (employee.title.equals("manager")) {
         managers.add(e);
       }
     }
@@ -18,11 +14,11 @@
 
 !SLIDE code
 
-    filter ((== "manager") . title) employees
+    employees.filter(_.title == "manager")
 
 !SLIDE bullets incremental
 #fp - lists
-* filter, map, fold, zip, flatMap
+* filter, map, fold, zip, flatMap, foreach
 
 !SLIDE bullets incremental
 #frp - events
@@ -30,6 +26,9 @@
 
 !SLIDE bullets incremental
 #bacon.js
+
+!SLIDE center
+![tweet](images/tweet.png)
 
 !SLIDE center
 #EventStream
@@ -59,8 +58,11 @@
 !SLIDE center
 ![observable](images/observable-hierarchy-simple.png)
 
-!SLIDE center
+!SLIDE center transition=fade
 ![observable](images/observable-hierarchy.png)
+
+!SLIDE center
+![observable](images/eventstream-to-property.png)
 
 !SLIDE center
 ![regform-ui](images/registration-form-ui.png)
@@ -87,10 +89,11 @@
 #ready? get the code!
 
 !SLIDE
-ssh://git@git.reaktor.fi/public/jpaanane/bacon-devday-code
+https://github.com/raimohanska/bacon-devday-code
 
 !SLIDE
 #wrap it up
 
 !SLIDE
+juha.paananen@reaktor.fi
 #@raimohanska
