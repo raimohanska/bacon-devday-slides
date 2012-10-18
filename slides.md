@@ -1,6 +1,6 @@
 !SLIDE bullets
 # FRP / bacon.js #
-* juha paananen @raimohanska
+* juha.paananen@reaktor.fi
 
 !SLIDE code
 
@@ -18,11 +18,11 @@
 
 !SLIDE bullets incremental
 #fp - lists
-* filter, map, fold, zip, flatMap, foreach
+* filter, map, fold, zip 
 
 !SLIDE bullets incremental
 #frp - events
-* filter, map, scan, merge, combine, flatMap
+* filter, map, scan, merge, combine
 
 !SLIDE bullets incremental
 #bacon.js
@@ -60,9 +60,6 @@
 
 !SLIDE center transition=fade
 ![observable](images/observable-hierarchy.png)
-
-!SLIDE center
-![observable](images/eventstream-to-property.png)
 
 !SLIDE center
 ![regform-ui](images/registration-form-ui.png)
